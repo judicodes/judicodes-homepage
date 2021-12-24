@@ -1,18 +1,21 @@
 module.exports = {
   purge: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: "class",
   theme: {
     extend: {
       colors: {
+        offwhite: {
+          DEFAULT: "#e0e0e0"
+        },
         beige: {
           light: "#fffffb",
           DEFAULT: "#d7ccc8",
           dark: "#a69b97"
         },
         indigo: {
-          light: "#666ad1",
-          DEFAULT: "#303f9f",
-          dark: "#001970"
+          light: "#686bb4",
+          DEFAULT: "#384084",
+          dark: "#001a57"
         },
         rose: {
           light: "#fff0ff",
@@ -21,12 +24,21 @@ module.exports = {
         }
       },
       backgroundImage: {
-        "p5-background": "url('../assets/images/p5Background.png')"
+        "p5-background": "url('../assets/images/p5-background-light.png')",
+        "p5-background-dark": "url('../assets/images/p5-background-dark.png')"
+      },
+      transitionProperty: {
+        backgroundImage: "url"
       }
     }
   },
   variants: {
-    extend: {}
+    extend: {
+      backgroundImage: ["dark"],
+      transitionProperty: ["hover"],
+      transitionDuration: ["hover"],
+      transitionTimingFunction: ["hover"]
+    }
   },
   plugins: []
 };
