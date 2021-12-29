@@ -1,9 +1,18 @@
 <template>
   <div class="flex flex-col items-center w-full">
-    <h1 class="text-4xl md:text-6xl font-light my-32 text-center">JUDITH BÖHLERT</h1>
-    <h2 class="text-2xl md:text-4xl font-light text-center">
-      Full-Stack Developer | Automation Enthusiast | Clean Code Devotee
-    </h2>
+    <h1 class="text-4xl md:text-6xl font-light mt-10 text-center">JUDITH BÖHLERT</h1>
+    <img
+      src="../assets/images/judi.webp"
+      alt="Picture of Judith in cold cold Canada"
+      class="rounded-full w-40 md:w-72 my-10"
+    />
+    <v-typical
+      class="text-2xl md:text-4xl font-light text-center"
+      :steps="['Full-Stack Developer | Automation Enthusiast | Clean Code Devotee']"
+      :loop="1"
+      :wrapper="'h2'"
+    ></v-typical>
+
     <hr class="my-10 w-11/12" />
     <div class="max-w-4xl md:max-w-3xl mx-8 mb-60">
       <p>Hi, I'm Judith.</p>
@@ -37,15 +46,25 @@
         bottom-0
         bg-gradient-to-b
         from-transparent
-        to-rose-light
-        dark:to-indigo-dark
+        to-lighttheme
+        dark:to-darktheme
         transition
         duration-500
         ease-in-out
+        z-0
       "
     ></div>
   </div>
 </template>
+
+<script lang="ts">
+import { defineComponent } from "vue";
+import { VTypical } from "vue-typical";
+
+export default defineComponent({
+  components: { VTypical }
+});
+</script>
 
 <style scoped>
 @layer base {

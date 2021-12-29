@@ -7,25 +7,20 @@ module.exports = {
         offwhite: {
           DEFAULT: "#e0e0e0"
         },
-        beige: {
-          light: "#fffffb",
-          DEFAULT: "#d7ccc8",
-          dark: "#a69b97"
+        darktheme: {
+          light: "#3e547b",
+          DEFAULT: "#0d2c4f",
+          dark: "#000027"
         },
-        indigo: {
-          light: "#686bb4",
-          DEFAULT: "#384084",
-          dark: "#001a57"
-        },
-        rose: {
-          light: "#fff0ff",
-          DEFAULT: "#e8bdd2",
-          dark: "#b58da1"
+        lighttheme: {
+          light: "#ffffff",
+          DEFAULT: "#e3ebef",
+          dark: "#b1b9bd"
         }
       },
       backgroundImage: {
-        "p5-background": "url('../assets/images/p5-background-light.png')",
-        "p5-background-dark": "url('../assets/images/p5-background-dark.png')"
+        "p5-background": "url('../assets/images/p5-background-light.webp')",
+        "p5-background-dark": "url('../assets/images/p5-background-dark.webp')"
       },
       transitionProperty: {
         backgroundImage: "url"
