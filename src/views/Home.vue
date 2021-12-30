@@ -4,7 +4,7 @@
     <img
       src="../assets/images/judi.webp"
       alt="Picture of Judith in cold cold Canada"
-      class="rounded-full w-40 md:w-72 my-10"
+      class="rounded-full w-40 md:w-72 my-10 shadow-2xl"
     />
     <v-typical
       class="text-2xl md:text-4xl font-light text-center"
@@ -39,20 +39,7 @@
     </div>
 
     <div
-      class="
-        h-1/3
-        w-screen
-        fixed
-        bottom-0
-        bg-gradient-to-b
-        from-transparent
-        to-lighttheme
-        dark:to-darktheme
-        transition
-        duration-500
-        ease-in-out
-        z-0
-      "
+      class="h-1/3 w-screen fixed bottom-0 bg-gradient-to-b from-transparent to-lighttheme dark:to-darktheme z-0"
     ></div>
   </div>
 </template>
