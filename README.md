@@ -1,5 +1,8 @@
 # judicodes-homepage
 
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0d310e59-4fe5-4bcb-9eb4-601f495bae26/deploy-status)](https://app.netlify.com/sites/silly-nobel-7b11e0/deploys)
+
 ## Project setup
 ```
 npm install
