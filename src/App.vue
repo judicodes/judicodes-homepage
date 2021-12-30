@@ -1,17 +1,5 @@
 <template>
-  <div
-    class="
-      bg-p5-background
-      dark:bg-p5-background-dark
-      bg-fixed bg-center bg-cover
-      h-full
-      w-full
-      dark:text-offwhite
-      transition
-      ease-in-out
-      duration-500
-    "
-  >
+  <div class="bg-p5-background dark:bg-p5-background-dark bg-fixed bg-center bg-cover h-full w-full dark:text-offwhite">
     <NavigationBar />
     <div class="pt-20">
       <router-view />
