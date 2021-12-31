@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-center mb-4 z-10 relative text-center text-gray-500">
+  <div class="flex justify-center pb-4 z-10 relative text-center text-gray-500">
     <button @click="openLegalStuff">Legal Notice & Privacy Policy</button>
   </div>
 </template>
