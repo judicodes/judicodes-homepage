@@ -9,9 +9,7 @@
       bg-lighttheme-dark
       dark:bg-darktheme-dark
       shadow-lg
-      transition
-      duration-500
-      ease-in-out
+      transition-500-ease
     "
   >
     <div class="flex items-center h-14 w-full sticky top-0 px-8">
