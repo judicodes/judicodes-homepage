@@ -37,10 +37,6 @@
       <hr class="mt-4" />
       <p>Motorcycles - The Ocean - Croissants - Books - Hummingbirds - Keeping things neat and simple</p>
     </div>
-
-    <div
-      class="h-1/3 w-screen fixed bottom-0 bg-gradient-to-b from-transparent to-lighttheme dark:to-darktheme z-0"
-    ></div>
   </div>
 </template>
 
