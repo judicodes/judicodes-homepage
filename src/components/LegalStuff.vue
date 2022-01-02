@@ -22,7 +22,7 @@
       "
     >
       <div class="mx-6 my-10">
-          <Disclosure as="div" class="mb-8">
+        <Disclosure as="div" class="mb-8">
           <DisclosureButton class="styled-disclosure-button">
             <span>Legal Notice (German Law)</span>
             <i class="fas fa-chevron-down fa-lg"></i>
