@@ -1,14 +1,6 @@
 <template>
   <div
-    class="
-      bg-lighttheme
-      dark:bg-darktheme
-      bg-fixed bg-center bg-cover
-      h-full
-      w-full
-      dark:text-offwhite
-      transition-500-ease
-    "
+    class="bg-lighttheme dark:bg-darktheme bg-fixed bg-center bg-cover h-full w-full dark:text-offwhite transition-500-ease"
   >
     <NavigationBar />
     <div class="pt-20">
