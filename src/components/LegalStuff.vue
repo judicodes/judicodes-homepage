@@ -3,23 +3,7 @@
     <DialogOverlay class="fixed inset-0 bg-black opacity-50" />
 
     <div
-      class="
-        fixed
-        mx-auto
-        mt-24
-        inset-0
-        z-10
-        w-5/6
-        md:w-1/2
-        xl:w-1/3
-        h-2/3
-        shadow-xl
-        rounded-xl
-        overflow-y-auto
-        dark:text-offwhite
-        bg-lighttheme-light
-        dark:bg-darktheme-light
-      "
+      class="fixed mx-auto mt-24 inset-0 z-10 w-5/6 md:w-1/2 xl:w-1/3 h-2/3 shadow-xl rounded-xl overflow-y-auto dark:text-offwhite bg-lighttheme-light dark:bg-darktheme-light"
     >
       <div class="mx-6 my-10">
         <Disclosure as="div" class="mb-8">

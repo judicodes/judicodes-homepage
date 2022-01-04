@@ -1,5 +1,7 @@
 <template>
-  <div class="bg-p5-background dark:bg-p5-background-dark bg-fixed bg-center bg-cover h-full w-full dark:text-offwhite">
+  <div
+    class="bg-lighttheme dark:bg-darktheme bg-fixed bg-center bg-cover h-full w-full dark:text-offwhite transition-500-ease"
+  >
     <NavigationBar />
     <div class="pt-20">
       <router-view />
