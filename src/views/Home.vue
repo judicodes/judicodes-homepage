@@ -33,9 +33,9 @@
         it in a gallon of olive oil
       </p>
 
-      <h3>Stuff I like</h3>
+      <h3>Things I like</h3>
       <hr class="mt-4" />
-      <p>Motorcycles - The Ocean - Croissants - Books - Hummingbirds - Keeping things neat and simple</p>
+      <p>Motorcycles - The Ocean - Linux - Croissants - Books - Hummingbirds - Keeping things neat and simple</p>
     </div>
   </div>
 </template>
