@@ -4,7 +4,9 @@
     <img
       src="../assets/images/judi.webp"
       alt="Picture of Judith in cold cold Canada"
-      class="rounded-full w-40 md:w-72 my-10 shadow-2xl"
+      class="rounded-full w-40 md:w-72 my-10 shadow-2xl cursor-pointer"
+      @click="confetti"
+      @contextmenu="sparkles"
     />
     <v-typical
       class="text-2xl md:text-4xl font-light text-center"
@@ -43,9 +45,26 @@
 <script lang="ts">
 import { defineComponent } from "vue";
 import { VTypical } from "vue-typical";
+import party from "party-js";
 
 export default defineComponent({
-  components: { VTypical }
+  components: { VTypical },
+  methods: {
+    confetti: function (event: Event): void {
+      const confettiConfig = {
+        count: party.variation.range(60, 80),
+        spread: 100
+      };
+      party.confetti(event as party.sources.DynamicSourceType, confettiConfig);
+    },
+    sparkles: function (event: Event): void {
+      event.preventDefault();
+      const sparklesConfig = {
+        count: party.variation.range(20, 40)
+      };
+      party.sparkles(event as party.sources.DynamicSourceType, sparklesConfig);
+    }
+  }
 });
 </script>
 
