@@ -1,7 +1,5 @@
 <template>
-  <header
-    class="flex items-center h-28 -top-14 sticky bg-lighttheme-dark dark:bg-darktheme-dark shadow-lg transition-500-ease"
-  >
+  <header class="flex items-center h-28 -top-14 sticky bg-lighttheme-dark dark:bg-darktheme-dark shadow-lg">
     <div class="flex items-center h-14 w-full sticky top-0 px-8">
       <span class="font-thin text-xl md:text-2xl"> judicodes </span>
       <div class="flex-grow"></div>
