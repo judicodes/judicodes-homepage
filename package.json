@@ -6,21 +6,16 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
-    "lint": "vue-cli-service lint --no-fix --max-warnings 0",
-    "lint-fix": "vue-cli-service lint"
+    "lint": "vue-cli-service lint --no-fix --max-warnings 0"
   },
   "dependencies": {
     "@headlessui/vue": "^1.4.2",
-    "ansi-regex": "^5.0.1",
     "core-js": "^3.6.5",
-    "glob-parent": "^5.1.2",
-    "node-notifier": "^8.0.1",
     "party-js": "^2.1.2",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0",
     "vue-typical": "^2.1.0",
-    "vuex": "^4.0.2",
-    "yargs-parser": "^13.1.2"
+    "vuex": "^4.0.2"
   },
   "devDependencies": {
     "@types/jest": "^24.0.19",
