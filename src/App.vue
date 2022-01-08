@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bg-lighttheme dark:bg-darktheme bg-fixed bg-center bg-cover h-full w-full dark:text-offwhite transition-500-ease"
+    class="bg-gradient-to-b from-lighttheme-light to-lighttheme-dark dark:from-darktheme dark:to-darktheme-dark bg-fixed bg-center bg-cover h-full w-full dark:text-offwhite"
   >
     <NavigationBar />
     <div class="pt-20">

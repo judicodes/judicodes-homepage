@@ -17,22 +17,7 @@ module.exports = {
           DEFAULT: "#e3ebef",
           dark: "#b1b9bd"
         }
-      },
-      backgroundImage: {
-        "p5-background": "url('../assets/images/p5-background-light.webp')",
-        "p5-background-dark": "url('../assets/images/p5-background-dark.webp')"
-      },
-      transitionProperty: {
-        backgroundImage: "url"
       }
-    }
-  },
-  variants: {
-    extend: {
-      backgroundImage: ["dark"],
-      transitionProperty: ["hover"],
-      transitionDuration: ["hover"],
-      transitionTimingFunction: ["hover"]
     }
   },
   plugins: []
