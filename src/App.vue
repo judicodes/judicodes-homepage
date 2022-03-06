@@ -18,6 +18,16 @@ import LegalStuff from "./components/LegalStuff.vue";
 import NavigationBar from "./components/NavigationBar.vue";
 
 export default defineComponent({
-  components: { NavigationBar, Footer, LegalStuff }
+  components: { NavigationBar, Footer, LegalStuff },
+  created() {
+    if (
+      localStorage.theme === "dark" ||
+      (!("theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)
+    ) {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
+  }
 });
 </script>
