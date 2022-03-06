@@ -69,17 +69,15 @@ export default defineComponent({
 </script>
 
 <style scoped>
-@layer base {
-  p {
-    @apply mb-16 mt-4 text-xl md:text-3xl font-thin;
-  }
+p {
+  @apply mb-16 mt-4 text-xl md:text-3xl font-thin;
+}
 
-  h3 {
-    @apply text-xl md:text-3xl font-light;
-  }
+h3 {
+  @apply text-xl md:text-3xl font-light;
+}
 
-  hr {
-    @apply border-0 static block bg-gray-500 h-1 rounded-3xl;
-  }
+hr {
+  @apply border-0 static block bg-gray-500 h-1 rounded-3xl;
 }
 </style>

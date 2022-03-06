@@ -43,17 +43,15 @@ export default defineComponent({
 </script>
 
 <style scoped>
-@layer utilities {
+a,
+button {
+  @apply p-2 rounded;
+}
+
+@media (hover: hover) and (pointer: fine) {
   a,
   button {
-    @apply p-2 rounded;
-  }
-
-  @media (hover: hover) and (pointer: fine) {
-    a,
-    button {
-      @apply hover:bg-lighttheme dark:hover:bg-darktheme hover:bg-opacity-30;
-    }
+    @apply hover:bg-lighttheme dark:hover:bg-darktheme hover:bg-opacity-30;
   }
 }
 </style>
