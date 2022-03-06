@@ -263,20 +263,18 @@ export default defineComponent({
 </script>
 
 <style scoped>
-@layer utilities {
-  .styled-disclosure-button {
-    @apply flex justify-between w-full px-4 py-2 mb-2 bg-lighttheme-dark dark:bg-darktheme-dark  hover:bg-lighttheme dark:hover:bg-darktheme rounded-lg;
-  }
+.styled-disclosure-button {
+  @apply flex justify-between w-full px-4 py-2 mb-2 bg-lighttheme-dark dark:bg-darktheme-dark  hover:bg-lighttheme dark:hover:bg-darktheme rounded-lg;
+}
 
-  .styled-disclosure-panel {
-    @apply text-gray-500 dark:text-gray-300;
-  }
+.styled-disclosure-panel {
+  @apply text-gray-500 dark:text-gray-300;
+}
 
-  ul {
-    @apply list-disc;
-  }
-  li {
-    @apply ml-4;
-  }
+ul {
+  @apply list-disc;
+}
+li {
+  @apply ml-4;
 }
 </style>
