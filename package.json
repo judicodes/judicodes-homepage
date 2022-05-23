@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@headlessui/vue": "^1.6.2",
-    "core-js": "^3.22.5",
+    "core-js": "^3.22.6",
     "party-js": "^2.1.2",
     "vue": "^3.2.34",
     "vue-router": "^4.0.15",
@@ -32,7 +32,7 @@
     "@vue/cli-plugin-unit-jest": "^5.0.4",
     "@vue/cli-plugin-vuex": "^5.0.4",
     "@vue/cli-service": "^5.0.4",
-    "@vue/compiler-sfc": "^3.2.33",
+    "@vue/compiler-sfc": "^3.2.36",
     "@vue/eslint-config-prettier": "^7.0.0",
     "@vue/eslint-config-typescript": "^10.0.0",
     "@vue/test-utils": "^2.0.0",
