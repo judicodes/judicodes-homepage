@@ -16,7 +16,7 @@
     "@headlessui/vue": "^1.6.2",
     "core-js": "^3.22.5",
     "party-js": "^2.1.2",
-    "vue": "^3.2.34",
+    "vue": "^3.2.36",
     "vue-router": "^4.0.15",
     "vue-typical": "^2.1.0",
     "vuex": "^4.0.2"
