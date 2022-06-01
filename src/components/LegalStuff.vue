@@ -1,5 +1,5 @@
 <template>
-  <Dialog :open="isOpen" @close="closeModal">
+  <HeadlessDialog :open="isOpen" @close="closeModal">
     <DialogOverlay class="fixed inset-0 bg-black opacity-50" />
 
     <div
@@ -239,16 +239,22 @@
         </Disclosure>
       </div>
     </div>
-  </Dialog>
+  </HeadlessDialog>
 </template>
 
 <script lang="ts">
 import store from "@/store";
-import { Dialog, DialogOverlay, Disclosure, DisclosureButton, DisclosurePanel } from "@headlessui/vue";
+import {
+  Dialog as HeadlessDialog,
+  DialogOverlay,
+  Disclosure,
+  DisclosureButton,
+  DisclosurePanel
+} from "@headlessui/vue";
 import { defineComponent } from "vue";
 
 export default defineComponent({
-  components: { Dialog, DialogOverlay, Disclosure, DisclosureButton, DisclosurePanel },
+  components: { HeadlessDialog, DialogOverlay, Disclosure, DisclosureButton, DisclosurePanel },
   computed: {
     isOpen() {
       return store.state.isLegalModalOpen;
