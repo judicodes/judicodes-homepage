@@ -6,19 +6,19 @@
     <div class="pt-20">
       <router-view />
     </div>
-    <Footer />
+    <LegalFooter />
     <LegalStuff />
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import Footer from "./components/Footer.vue";
+import LegalFooter from "./components/LegalFooter.vue";
 import LegalStuff from "./components/LegalStuff.vue";
 import NavigationBar from "./components/NavigationBar.vue";
 
 export default defineComponent({
-  components: { NavigationBar, Footer, LegalStuff },
+  components: { NavigationBar, LegalFooter, LegalStuff },
   created() {
     if (
       localStorage.theme === "dark" ||

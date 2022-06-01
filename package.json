@@ -10,7 +10,10 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
-    "lint": "vue-cli-service lint --no-fix --max-warnings 0"
+    "lint:check": "eslint --ext .js,.ts,.vue .",
+    "lint:fix": "eslint --fix --ext .js,.ts,.vue .",
+    "format:check": "prettier --check .",
+    "format:fix": "prettier --write ."
   },
   "dependencies": {
     "@headlessui/vue": "^1.6.4",
@@ -54,7 +57,10 @@
   },
   "lint-staged": {
     "*.{js,jsx,vue,ts,tsx}": [
-      "npm run lint"
+      "npm run lint:check"
+    ],
+    "*.{js,jsx,vue,ts,tsx,json,html,md,yml,yaml}": [
+      "npm run format:check"
     ]
   }
 }
