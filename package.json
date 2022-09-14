@@ -16,7 +16,7 @@
     "format:fix": "prettier --write ."
   },
   "dependencies": {
-    "@headlessui/vue": "^1.7.0",
+    "@headlessui/vue": "^1.7.1",
     "core-js": "^3.25.1",
     "party-js": "^2.2.0",
     "vue": "^3.2.39",
