@@ -16,7 +16,7 @@
     "format:fix": "prettier --write ."
   },
   "dependencies": {
-    "@headlessui/vue": "^1.7.2",
+    "@headlessui/vue": "^1.7.3",
     "core-js": "^3.25.3",
     "party-js": "^2.2.0",
     "vue": "^3.2.40",
@@ -27,7 +27,7 @@
   "devDependencies": {
     "@types/jest": "^29.1.2",
     "@typescript-eslint/eslint-plugin": "^5.38.1",
-    "@typescript-eslint/parser": "^5.38.1",
+    "@typescript-eslint/parser": "^5.39.0",
     "@vue/cli-plugin-babel": "^5.0.8",
     "@vue/cli-plugin-eslint": "^5.0.8",
     "@vue/cli-plugin-router": "^5.0.7",
@@ -44,7 +44,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-vue": "^8.7.1",
     "lint-staged": "^13.0.3",
-    "postcss": "^8.4.16",
+    "postcss": "^8.4.17",
     "postcss-import": "^15.0.0",
     "prettier": "^2.7.1",
     "@rushstack/eslint-patch": "^1.2.0",
