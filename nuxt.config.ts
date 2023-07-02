@@ -3,7 +3,7 @@
 import vuetify from 'vite-plugin-vuetify';
 
 vuetify({
-  styles: { configFile: 'assets/settings.scss' }
+  styles: { configFile: 'assets/styles/settings.scss' }
 });
 
 export default defineNuxtConfig({
