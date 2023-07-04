@@ -7,6 +7,11 @@ vuetify({
 });
 
 export default defineNuxtConfig({
+  app: {
+    head: {
+      title: 'Judith Boehlert'
+    }
+  },
   devtools: { enabled: true },
   typescript: {
     shim: false,
