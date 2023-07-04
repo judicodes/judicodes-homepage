@@ -17,7 +17,9 @@
             target="_blank"
             :title="icon.title"
           >
-            <v-icon :icon="icon.iconString" size="36px" class="mx-3" />
+            <client-only>
+              <v-icon :icon="icon.iconString" size="36px" class="mx-3" />
+            </client-only>
           </a>
         </v-row>
       </v-col>
