@@ -37,7 +37,7 @@ export default defineNuxtConfig({
   },
   googleFonts: {
     families: {
-      'Josefin+Sans': true,
+      'Josefin+Sans': [100, 200, 300, 400, 500, 600],
       'Nothing+You+Could+Do': [400]
     }
   }
