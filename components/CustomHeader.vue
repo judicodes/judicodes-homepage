@@ -8,8 +8,8 @@
           :width="imageWidthHeight"
           class="rounded-circle"
         ></v-img>
-        <h1 class="name text-darkTeal">Judith Boehlert</h1>
-        <h2 class="subtitle text-lightTeal">Software Engineer & Solopreneur.</h2>
+        <h1 class="name text-dark-teal">Judith Boehlert</h1>
+        <h2 class="subtitle text-light-teal">Software Engineer & Solopreneur.</h2>
         <v-row justify="center" class="pa-5">
           <a
             v-for="icon in iconLinks"
@@ -19,7 +19,7 @@
             :title="icon.title"
           >
             <client-only>
-              <v-icon :icon="icon.iconString" size="36px" class="mx-3" color="lightTeal" />
+              <v-icon :icon="icon.iconString" size="36px" class="mx-3" color="light-teal" />
             </client-only>
           </a>
         </v-row>
@@ -45,7 +45,7 @@ const iconLinks: IconLink[] = [
   },
   {
     iconString: 'fa-brands fa-square-instagram',
-    url: 'https://www.instagram.com/judi_codes/',
+    url: 'https://www.instagram.com/judi.codes/',
     title: 'Instagram @judi_codes'
   },
   {

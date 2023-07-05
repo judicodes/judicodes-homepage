@@ -11,10 +11,12 @@ const lightTheme: ThemeDefinition = {
   dark: false,
   colors: {
     background: '#F5F5F5',
-    darkTeal: '#316B83',
-    lightTeal: '#8CA1A5',
-    blueGrey: '#6D8299',
-    rose: '#D5BFBF'
+    'dark-teal': '#316B83',
+    'light-teal': '#8CA1A5',
+    'blue-grey': '#6D8299',
+    rose: '#D5BFBF',
+    'rose-lighten-1': '#DDCBCB',
+    'rose-lighten-2': '#E5D8D8'
   }
 };
 
