@@ -1,11 +1,11 @@
-import { ThemeDefinition, createVuetify } from 'vuetify';
-import 'vuetify/styles';
-import { aliases, fa } from 'vuetify/iconsets/fa-svg';
 import { library } from '@fortawesome/fontawesome-svg-core';
+import { ThemeDefinition, createVuetify } from 'vuetify';
+import { aliases, fa } from 'vuetify/iconsets/fa-svg';
+import 'vuetify/styles';
+import { faGithubSquare, faInstagramSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 // eslint-disable-next-line import/named
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faLinkedin, faInstagramSquare, faGithubSquare } from '@fortawesome/free-brands-svg-icons';
 
 const lightTheme: ThemeDefinition = {
   dark: false,
@@ -13,6 +13,9 @@ const lightTheme: ThemeDefinition = {
     background: '#F5F5F5',
     'dark-teal': '#316B83',
     'light-teal': '#8CA1A5',
+    'light-teal-lighten-1': '#a3b3b7',
+    'light-teal-lighten-2': '#bac6c9',
+    'light-teal-lighten-3': '#d1d9db',
     'blue-grey': '#6D8299',
     rose: '#D5BFBF',
     'rose-lighten-1': '#DDCBCB',

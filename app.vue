@@ -4,6 +4,7 @@
       <v-row justify="center">
         <v-col>
           <CustomHeader />
+          <WorkWithMe />
           <InfoCard />
         </v-col>
       </v-row>
