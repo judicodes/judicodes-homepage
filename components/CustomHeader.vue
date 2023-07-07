@@ -39,22 +39,22 @@ interface IconLink {
 
 const iconLinks: IconLink[] = [
   {
-    iconString: 'fa-brands fa-linkedin',
+    iconString: 'fa:fa-brands fa-linkedin',
     url: 'https://linkedin.com/in/jboehlert',
     title: 'LinkedIn'
   },
   {
-    iconString: 'fa-brands fa-square-instagram',
+    iconString: 'fa:fa-brands fa-square-instagram',
     url: 'https://www.instagram.com/judi.codes/',
     title: 'Instagram @judi_codes'
   },
   {
-    iconString: 'fa-brands fa-square-github',
+    iconString: 'fa:fa-brands fa-square-github',
     url: 'https://github.com/judicodes',
     title: 'GitHub'
   },
   {
-    iconString: 'fas fa-envelope',
+    iconString: 'fa:fas fa-envelope',
     url: 'mailto:hello@judithboehlert.com',
     title: 'Send me an email'
   }

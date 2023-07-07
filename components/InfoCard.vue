@@ -3,7 +3,7 @@
     <v-col cols="12" sm="10" md="8">
       <v-card class="bg-light-teal-lighten-3 text-grey-darken-4">
         <v-row justify="center">
-          <v-col cols="10" md="8" lg="6">
+          <v-col cols="10" md="8" xl="6">
             <v-card-text class="card-text text-grey-darken-4">
               <p class="text-center font-italic">Hi, I'm Judith.</p>
               <p>

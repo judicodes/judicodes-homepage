@@ -1,9 +1,10 @@
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { ThemeDefinition, createVuetify } from 'vuetify';
-import { aliases, fa } from 'vuetify/iconsets/fa-svg';
-import 'vuetify/styles';
 import { faGithubSquare, faInstagramSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { ThemeDefinition, createVuetify } from 'vuetify';
+import { fa } from 'vuetify/iconsets/fa-svg';
+import { aliases, mdi } from 'vuetify/iconsets/mdi-svg';
+import 'vuetify/styles';
 // eslint-disable-next-line import/named
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
@@ -26,9 +27,9 @@ const lightTheme: ThemeDefinition = {
 export default defineNuxtPlugin((nuxtApp) => {
   const vuetify = createVuetify({
     icons: {
-      defaultSet: 'fa',
+      defaultSet: 'mdi',
       aliases,
-      sets: { fa }
+      sets: { fa, mdi }
     },
     theme: {
       defaultTheme: 'lightTheme',

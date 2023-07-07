@@ -1,7 +1,7 @@
 <template>
   <v-row justify="center">
     <v-col cols="10" sm="8" md="6">
-      <v-card class="bg-rose-lighten-2 text-grey-darken-4">
+      <v-card class="bg-rose-lighten-1 text-grey-darken-4">
         <v-card-text class="card-text text-center">
           <p class="font-weight-bold">Want to work with me?</p>
           <p>Contact me at hello@judithboehlert.com.</p>
