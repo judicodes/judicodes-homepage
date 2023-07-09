@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <client-only>
     <v-container>
       <v-row justify="center">
         <v-col align="center">
@@ -10,14 +10,13 @@
         </v-col>
       </v-row>
     </v-container>
-  </div>
+  </client-only>
 </template>
 
 <style lang="scss">
 html,
 body {
   font-family: 'Josefin Sans', sans-serif;
-  overflow-y: scroll;
   height: 100%;
   width: 100%;
   min-height: 100dvh;

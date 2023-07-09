@@ -1,5 +1,5 @@
 <template>
-  <v-row justify="center">
+  <v-row justify="center" data-aos="fade-up" data-aos-delay="1500">
     <v-col cols="10" sm="8" md="6">
       <v-card class="bg-rose-lighten-1 text-grey-darken-4">
         <v-card-text class="card-text text-center">

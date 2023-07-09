@@ -1,16 +1,20 @@
 <template>
   <v-container>
-    <v-row justify="center">
+    <v-row justify="center" align="center">
       <v-col align="center">
-        <v-img
-          src="../assets/images/judi.webp"
-          :height="imageWidthHeight"
-          :width="imageWidthHeight"
-          class="rounded-circle"
-        ></v-img>
-        <h1 class="name text-dark-teal">Judith Boehlert</h1>
-        <h2 class="subtitle text-light-teal">Software Engineer & Solopreneur.</h2>
-        <v-row justify="center" class="pa-5">
+        <div data-aos="zoom-in">
+          <v-img
+            src="../assets/images/judi.webp"
+            :height="imageWidthHeight"
+            :width="imageWidthHeight"
+            class="rounded-circle"
+          ></v-img>
+        </div>
+        <h1 class="name text-dark-teal" data-aos="fade-up" data-aos-delay="500">Judith Boehlert</h1>
+        <h2 class="subtitle text-light-teal" data-aos="fade-up" data-aos-delay="1000">
+          Software Engineer & Solopreneur.
+        </h2>
+        <v-row justify="center" class="pa-5" data-aos="fade-up" data-aos-delay="1000">
           <a
             v-for="icon in iconLinks"
             :key="icon.iconString"
@@ -18,9 +22,7 @@
             target="_blank"
             :title="icon.title"
           >
-            <client-only>
-              <v-icon :icon="icon.iconString" size="36px" class="mx-3" color="light-teal" />
-            </client-only>
+            <v-icon :icon="icon.iconString" size="36px" class="mx-3" color="light-teal" />
           </a>
         </v-row>
       </v-col>
