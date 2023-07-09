@@ -30,6 +30,7 @@ export default defineNuxtConfig({
     },
     '@nuxtjs/google-fonts'
   ],
+  css: ['assets/styles/variables.scss'],
   vite: {
     define: {
       'process.env.DEBUG': false

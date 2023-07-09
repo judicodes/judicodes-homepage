@@ -86,11 +86,29 @@ const imageWidthHeight = computed(() => {
 <style scoped lang="scss">
 .name {
   font-family: 'Nothing You Could Do', cursive;
-  font-size: 56px;
+  font-size: 32px;
+  @media only screen and (min-width: 600px) {
+    font-size: 40px;
+  }
+  @media only screen and (min-width: 960px) {
+    font-size: 48px;
+  }
+  @media only screen and (min-width: 1280px) {
+    font-size: 56px;
+  }
 }
 
 .subtitle {
-  font-size: 32px;
+  font-size: 20px;
+  @media only screen and (min-width: 600px) {
+    font-size: 24px;
+  }
+  @media only screen and (min-width: 960px) {
+    font-size: 28px;
+  }
+  @media only screen and (min-width: 1280px) {
+    font-size: 32px;
+  }
   font-weight: 400;
 }
 </style>

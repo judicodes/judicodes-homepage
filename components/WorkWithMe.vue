@@ -14,7 +14,13 @@
 <style lang="scss" scoped>
 .card-text,
 p {
-  font-size: 24px;
+  font-size: 18px;
+  @media only screen and (min-width: 600px) {
+    font-size: 20px;
+  }
+  @media only screen and (min-width: 1280px) {
+    font-size: 24px;
+  }
   font-weight: 300;
   line-height: 1.75rem;
 }
