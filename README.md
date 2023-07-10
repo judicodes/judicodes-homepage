@@ -1,63 +1,21 @@
-# Nuxt 3 Minimal Starter
+# judicodes-homepage
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0d310e59-4fe5-4bcb-9eb4-601f495bae26/deploy-status)](https://app.netlify.com/sites/silly-nobel-7b11e0/deploys)
 
-## Setup
+This is the source code for my personal website [judithboehlert.com](https://www.judithboehlert.com).
 
-Make sure to install the dependencies:
+It is built with Vue, TypeScript, Nuxt, Vuetify and hosted on Netlify.
 
-```bash
-# npm
-npm install
+Feel free to use the source code as you see fit. Mention me and link to my website for some extra Karma points. :heartpulse:
 
-# pnpm
-pnpm install
+## Project setup
 
-# yarn
-yarn install
+```
+yarn
 ```
 
-## Development Server
+### Compiles and hot-reloads for development
 
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
+```
 yarn dev
 ```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
