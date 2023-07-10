@@ -28,7 +28,8 @@ export default defineNuxtConfig({
         config?.plugins?.push(vuetify());
       });
     },
-    '@nuxtjs/google-fonts'
+    '@nuxtjs/google-fonts',
+    '@nuxt/image'
   ],
   css: ['assets/styles/variables.scss'],
   vite: {
