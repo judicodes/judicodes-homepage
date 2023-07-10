@@ -12,6 +12,9 @@ export default defineNuxtConfig({
       title: 'Judith Boehlert'
     }
   },
+  nitro: {
+    preset: 'netlify'
+  },
   devtools: { enabled: true },
   typescript: {
     shim: false,
@@ -28,8 +31,7 @@ export default defineNuxtConfig({
         config?.plugins?.push(vuetify());
       });
     },
-    '@nuxtjs/google-fonts',
-    '@nuxt/image'
+    '@nuxtjs/google-fonts'
   ],
   css: ['assets/styles/variables.scss'],
   vite: {

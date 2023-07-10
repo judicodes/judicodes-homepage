@@ -3,11 +3,13 @@
     <v-row class="h-100" align-content="center">
       <v-col>
         <div data-aos="zoom-in">
-          <nuxt-img
+          <img
             src="/judi.webp"
-            sizes="xs:220px sm:230px md:270px lg:300px xl:320px"
+            alt="Picture of Judi in cold, cold Canada."
+            :width="imageWidthHeight"
+            :height="imageWidthHeight"
             class="rounded-circle"
-          ></nuxt-img>
+          />
         </div>
         <h1 class="name text-dark-teal" data-aos="fade-up" data-aos-delay="500">Judith Boehlert</h1>
         <h2 class="subtitle text-light-teal" data-aos="fade-up" data-aos-delay="1000">
@@ -30,6 +32,8 @@
 </template>
 
 <script setup lang="ts">
+import { useDisplay } from 'vuetify/lib/framework.mjs';
+
 interface IconLink {
   iconString: string;
   url: string;
@@ -58,6 +62,26 @@ const iconLinks: IconLink[] = [
     title: 'Send me an email'
   }
 ];
+
+const { name } = useDisplay();
+const imageWidthHeight = computed(() => {
+  switch (name.value) {
+    case 'xs':
+      return 220;
+    case 'sm':
+      return 230;
+    case 'md':
+      return 270;
+    case 'lg':
+      return 300;
+    case 'xl':
+      return 320;
+    case 'xxl':
+      return 320;
+    default:
+      return 220;
+  }
+});
 </script>
 
 <style scoped lang="scss">
