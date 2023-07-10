@@ -1,7 +1,7 @@
 <template>
-  <v-container>
-    <v-row justify="center" align="center">
-      <v-col align="center">
+  <v-container class="h-screen">
+    <v-row class="h-100" align-content="center">
+      <v-col>
         <div data-aos="zoom-in">
           <nuxt-img
             src="/judi.webp"
