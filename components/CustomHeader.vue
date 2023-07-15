@@ -11,7 +11,9 @@
             class="rounded-circle"
           />
         </div>
-        <h1 class="name text-dark-teal" data-aos="fade-up" data-aos-delay="500">Judith Boehlert</h1>
+        <h1 class="name" :class="titleColour" data-aos="fade-up" data-aos-delay="500">
+          Judith Boehlert
+        </h1>
         <h2 class="subtitle text-light-teal" data-aos="fade-up" data-aos-delay="1000">
           Software Engineer & Solopreneur.
         </h2>
@@ -32,13 +34,21 @@
 </template>
 
 <script setup lang="ts">
-import { useDisplay } from 'vuetify/lib/framework.mjs';
+import { useDisplay, useTheme } from 'vuetify/lib/framework.mjs';
 
 interface IconLink {
   iconString: string;
   url: string;
   title: string;
 }
+
+const theme = useTheme();
+const isLightTheme = computed(() => {
+  return theme.global.name.value === 'lightTheme';
+});
+const titleColour = computed(() => {
+  return isLightTheme.value ? 'text-dark-teal' : 'text-rose';
+});
 
 const iconLinks: IconLink[] = [
   {
