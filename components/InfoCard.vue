@@ -1,10 +1,10 @@
 <template>
   <v-row justify="center" data-aos="fade-up">
     <v-col cols="12" sm="10" md="8">
-      <v-card class="bg-light-teal-lighten-3 text-grey-darken-4">
+      <v-card :class="[cardBackgroundColour, textColour]">
         <v-row justify="center">
           <v-col cols="10" md="8" xl="6">
-            <v-card-text class="card-text text-grey-darken-4">
+            <v-card-text class="card-text">
               <p class="text-center font-italic">Hi, I'm Judith.</p>
               <p>
                 I'm a <span class="emphasize">self-employed software engineer</span> based in
@@ -58,6 +58,21 @@
     </v-col>
   </v-row>
 </template>
+
+<script setup lang="ts">
+import { useTheme } from 'vuetify/lib/framework.mjs';
+
+const theme = useTheme();
+const isLightTheme = computed(() => {
+  return theme.global.name.value === 'lightTheme';
+});
+const cardBackgroundColour = computed(() => {
+  return isLightTheme.value ? 'bg-light-teal-lighten-3' : 'bg-blue-grey';
+});
+const textColour = computed(() => {
+  return isLightTheme.value ? 'text-grey-darken-4' : 'text-white';
+});
+</script>
 
 <style lang="scss" scoped>
 .card-text,

@@ -24,6 +24,22 @@ const lightTheme: ThemeDefinition = {
   }
 };
 
+const darkTheme: ThemeDefinition = {
+  dark: true,
+  colors: {
+    background: '#212121',
+    'dark-teal': '#316B83',
+    'light-teal': '#8CA1A5',
+    'light-teal-lighten-1': '#a3b3b7',
+    'light-teal-lighten-2': '#bac6c9',
+    'light-teal-lighten-3': '#d1d9db',
+    'blue-grey': '#6D8299',
+    rose: '#D5BFBF',
+    'rose-lighten-1': '#DDCBCB',
+    'rose-lighten-2': '#E5D8D8'
+  }
+};
+
 export default defineNuxtPlugin((nuxtApp) => {
   const vuetify = createVuetify({
     icons: {
@@ -34,7 +50,8 @@ export default defineNuxtPlugin((nuxtApp) => {
     theme: {
       defaultTheme: 'lightTheme',
       themes: {
-        lightTheme
+        lightTheme,
+        darkTheme
       }
     }
   });
