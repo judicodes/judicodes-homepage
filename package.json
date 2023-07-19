@@ -22,7 +22,7 @@
     "@nuxtjs/google-fonts": "^3.0.1",
     "aos": "^3.0.0-beta.6",
     "sass": "^1.63.6",
-    "vuetify": "^3.3.8"
+    "vuetify": "^3.3.9"
   },
   "devDependencies": {
     "@mdi/js": "^7.2.96",
