@@ -14,7 +14,7 @@
         <h1 class="name" :class="titleColour" data-aos="fade-up" data-aos-delay="500">
           Judith Boehlert
         </h1>
-        <h2 class="subtitle text-light-teal" data-aos="fade-up" data-aos-delay="1000">
+        <h2 class="subtitle" :class="titleColour" data-aos="fade-up" data-aos-delay="1000">
           Software Engineer & Solopreneur.
         </h2>
         <v-row justify="center" class="pa-5" data-aos="fade-up" data-aos-delay="1000">

@@ -4,6 +4,7 @@
       <v-btn
         class="theme-icon"
         size="x-large"
+        title="Toggle dark/light theme"
         :icon="toggleThemeIcon"
         variant="plain"
         :color="toggleThemeIconColour"

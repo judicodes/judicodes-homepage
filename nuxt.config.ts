@@ -9,7 +9,10 @@ vuetify({
 export default defineNuxtConfig({
   app: {
     head: {
-      title: 'Judith Boehlert'
+      title: 'Judith Boehlert',
+      htmlAttrs: {
+        lang: 'en'
+      }
     }
   },
   nitro: {
