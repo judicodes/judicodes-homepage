@@ -7,14 +7,6 @@ vuetify({
 });
 
 export default defineNuxtConfig({
-  app: {
-    head: {
-      title: 'Judith Boehlert',
-      htmlAttrs: {
-        lang: 'en'
-      }
-    }
-  },
   nitro: {
     preset: 'netlify'
   },
