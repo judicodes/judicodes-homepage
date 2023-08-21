@@ -21,7 +21,7 @@
     "@fortawesome/vue-fontawesome": "^3.0.3",
     "@nuxtjs/google-fonts": "^3.0.2",
     "aos": "^3.0.0-beta.6",
-    "sass": "^1.66.0",
+    "sass": "^1.66.1",
     "vuetify": "^3.3.13"
   },
   "devDependencies": {
