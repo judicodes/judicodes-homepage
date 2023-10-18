@@ -1200,19 +1200,19 @@
   resolved "https://registry.yarnpkg.com/@nuxt/devalue/-/devalue-2.0.2.tgz#5749f04df13bda4c863338d8dabaf370f45ef7c7"
   integrity sha512-GBzP8zOc7CGWyFQS6dv1lQz8VVpz5C2yRszbXufwG/9zhStTIH50EtD87NmWbTMwXDvZLNg8GIpb1UFdH93JCA==
 
-"@nuxt/devtools-kit@1.0.0-beta.3":
-  version "1.0.0-beta.3"
-  resolved "https://registry.yarnpkg.com/@nuxt/devtools-kit/-/devtools-kit-1.0.0-beta.3.tgz#240c4f04e1ec7a757c854d52c20d72332066a468"
-  integrity sha512-jRIlOZ1mGED6S0knH2mjRPeFr3WA/LHJvAhLHLBhE943e5JTmurR9stin86DRZKjLwn5d1AtUHyM9rxaCO0qLw==
+"@nuxt/devtools-kit@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@nuxt/devtools-kit/-/devtools-kit-1.0.0.tgz#c59d0323a3405cb2f000895e72430dbb3e9ca2bc"
+  integrity sha512-cNloBepQYCBW6x/ctfCvyYRZudxhfgh5w5JDswpCzn7KXmm8U6abG2jyT0FXIaceW1d5QYMpGCN1RUw24wSvOA==
   dependencies:
     "@nuxt/kit" "^3.7.4"
     "@nuxt/schema" "^3.7.4"
     execa "^7.2.0"
 
-"@nuxt/devtools-wizard@1.0.0-beta.3":
-  version "1.0.0-beta.3"
-  resolved "https://registry.yarnpkg.com/@nuxt/devtools-wizard/-/devtools-wizard-1.0.0-beta.3.tgz#d1adcd959d19a77612266453c28c3e1def1323cf"
-  integrity sha512-PBcTqzy0Go4sZvSLsbj/LyK+BMmmGyhswI0Wq5hM3Ydy0rJC6MdfOt/1FIG6S/rQIOcYH0Y9k7miRQ77wh5KaQ==
+"@nuxt/devtools-wizard@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@nuxt/devtools-wizard/-/devtools-wizard-1.0.0.tgz#1ad96a6d4194b025c2d5a62af406764847fe3e52"
+  integrity sha512-9OeZM2/Y4VuI06gdlDjmYM8yUzdfnywy4t2u2VAEfA2Lk7vk3U1lYn51IAqr+Gits9tp/Q9OiktMWmPLLNGgFw==
   dependencies:
     consola "^3.2.3"
     diff "^5.1.0"
@@ -1226,13 +1226,13 @@
     semver "^7.5.4"
 
 "@nuxt/devtools@latest":
-  version "1.0.0-beta.3"
-  resolved "https://registry.yarnpkg.com/@nuxt/devtools/-/devtools-1.0.0-beta.3.tgz#6284426840f068d8c6fca7c0cdadd84582ad1bcf"
-  integrity sha512-Ah/ho+Y5uv3ky+qDUX+lZMbLSaKt+rmCPuPmRlVWbmQtjlhzCyGAiqJSHhojerG9mp4uu5if99ejxKOj2w4rYQ==
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@nuxt/devtools/-/devtools-1.0.0.tgz#7d30a64bb9f69931a34103aaad8c45433fafd2dd"
+  integrity sha512-pM5AvystXlFPYOsGbH8PBxEYkttiEWHsZnGw660iMw8QedB6mAweT21XX9LDS69cqnRY5uTFqVOmO9Y4EYL3hg==
   dependencies:
     "@antfu/utils" "^0.7.6"
-    "@nuxt/devtools-kit" "1.0.0-beta.3"
-    "@nuxt/devtools-wizard" "1.0.0-beta.3"
+    "@nuxt/devtools-kit" "1.0.0"
+    "@nuxt/devtools-wizard" "1.0.0"
     "@nuxt/kit" "^3.7.4"
     birpc "^0.2.14"
     consola "^3.2.3"
