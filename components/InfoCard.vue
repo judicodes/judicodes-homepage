@@ -11,7 +11,7 @@
                 Berlin, and I like to build things on the internet.
               </p>
               <p>
-                I have 5+ years of experience with
+                I have 6+ years of experience with
                 <span class="emphasize">full-stack development</span> using technologies such as
                 <span class="emphasize">React</span> or <span class="emphasize">Vue.js</span> on the
                 frontend and <span class="emphasize">Node.js</span> or

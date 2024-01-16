@@ -15,7 +15,7 @@
           Judith Boehlert
         </h1>
         <h2 class="subtitle" :class="titleColour" data-aos="fade-up" data-aos-delay="1000">
-          Software Engineer & Solopreneur.
+          Freelance Software Engineer
         </h2>
         <v-row justify="center" class="pa-5" data-aos="fade-up" data-aos-delay="1000">
           <a
